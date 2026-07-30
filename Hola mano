@@ -1,0 +1,35 @@
+#Modulo de fisica - Estudiante 4 - Daniel Alejandro Sanchez 
+#Fuerza(2da Ley de Newton)
+def calcular_fuerza(masa_KG,aceleracion_m_s2):
+    # Entrada de datos: masa en kilogramos y aceleración en metros por segundo al cuadrado
+    masa_KG = float(input("Ingrese la masa en kilogramos: "))
+    aceleracion_m_s2 = float(input("Ingrese la aceleración en metros por segundo al cuadrado: "))
+    
+    if masa_KG > 0 and aceleracion_m_s2 > 0:
+        # Multiplicamos la masa por la aceleración para obtener la fuerza
+        fuerza_N = masa_KG * aceleracion_m_s2
+        # Devolvemos la fuerza calculada junto con los valores de entrada
+        return fuerza_N, masa_KG, aceleracion_m_s2
+    else:
+        print("Error: La masa y la aceleración deben ser valores positivos mayores que cero.")
+        return None, None, None
+        
+calcular_fuerza(0,0)    
+
+def calcular_ingreso(lista_citas):
+
+def especie_buscada(ingreso):  
+
+def filtrar_cuidados_especiales(lista_citas):
+
+def menu():
+    print("--Peluqueria y veterinaria Huellitas")
+    print("Sistema para agendar citas")
+    print(f""Digite la opcion 
+          1. registrar mascota
+          2. Calcular caja diaria 
+          3. Ver estadisticas
+          ")
+    opc = 0
+
+    if opc == 1:
